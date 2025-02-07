@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelance Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">PortfolioAmine</div>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <section id="hero" class="hero">
+            <video autoplay muted loop id="hero-video">
+                <source src="background_vid.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="hero-text">
+                <h1>Freelance Web Dev services</h1>
+                <p>Building sleek, minimal websites with modern design principles. I specialize in creating responsive,
+                    user-friendly interfaces that not only look great but also provide an intuitive user experience. My
+                    goal is to help businesses establish a strong online presence through visually appealing and
+                    functional websites that drive engagement and conversions.</p>
+                <div class="buttons">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn">View Work</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="services" class="services">
+            <h2>Services</h2>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <h3>Web Design</h3>
+                    <p>Beautiful, minimal designs for modern brands.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Development</h3>
+                    <p>Responsive and interactive web development.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>SEO Optimization</h3>
+                    <p>Enhancing your site's visibility and reach.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>E-commerce</h3>
+                    <p>Robust solutions for online businesses.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>E-commerce</h3>
+                    <p>Robust solutions for online businesses.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-filter">
+                <button onclick="filterProjects('all')">All</button>
+                <button onclick="filterProjects('design')">Design</button>
+                <button onclick="filterProjects('development')">Development</button>
+                <button onclick="filterProjects('seo')">SEO</button>
+            </div>
+            <div class="project-items grid">
+                <div class="project-item" data-category="design">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Minimalist Landing Page</h3>
+                    <p>A sleek, modern landing page design.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="development">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Interactive Dashboard</h3>
+                    <p>A dynamic dashboard with real-time data.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="seo">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>SEO Optimized Site</h3>
+                    <p>A website optimized for search engines.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="design">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Creative Portfolio</h3>
+                    <p>Showcasing creative design projects.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="design">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Creative Portfolio</h3>
+                    <p>Showcasing creative design projects.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="design">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Creative Portfolio</h3>
+                    <p>Showcasing creative design projects.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="design">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Creative Portfolio</h3>
+                    <p>Showcasing creative design projects.</p>
+                    </a>
+                </div>
+                <div class="project-item" data-category="design">
+                    <a href="https://www.upwork.com/freelancers/~0162e238a43c6fec05"></a>
+                    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg" alt="">
+                    <h3>Creative Portfolio</h3>
+                    <p>Showcasing creative design projects.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form onsubmit="submitForm(event)">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+
+        <footer>
+            <p>med amine wannes</p>
+        </footer>
+    </div>
+    <script>
+
+        function filterProjects(category) {
+            const projects = document.querySelectorAll('.project-item');
+            projects.forEach(item => {
+                if (category === 'all' || item.getAttribute('data-category') === category) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        }
+
+        function submitForm(event) {
+            event.preventDefault();
+            alert('Form submitted!');
+            event.target.reset();
+
+        }
+    </script>
+</body>
+
+</html>
